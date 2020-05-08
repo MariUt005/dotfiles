@@ -3,7 +3,8 @@
 #sudo pacman -Syu
 
 #install
-sudo pacman -S git unzip nvim ghc libffi
+sudo pacman -S git unzip nvim 
+#sudo pacman -S ghc libffi
 
 #config git
 git config --global user.name "MariUt005"
@@ -14,8 +15,6 @@ curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.g
 curl -fLo ~/.config/nvim/init.vim --create-dirs https://raw.githubusercontent.com/MariUt005/dotfiles/master/init.vim
 
 #install LAMP
-git clone https://github.com/MariUt005/lamp.git -b "test"
+cd && git clone https://github.com/MariUt005/lamp.git -b "test"
 sudo chmod +x lamp/install.sh
 ~/lamp/install.sh
-
-
