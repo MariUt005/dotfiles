@@ -3,7 +3,7 @@
 #sudo pacman -Syu
 
 #install
-sudo pacman -S git unzip nvim 
+sudo pacman -S git unzip neovim 
 #sudo pacman -S ghc libffi
 
 #config git
