@@ -15,6 +15,6 @@ curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.g
 curl -fLo ~/.config/nvim/init.vim --create-dirs https://raw.githubusercontent.com/MariUt005/dotfiles/master/init.vim
 
 #install LAMP
-cd && git clone https://github.com/MariUt005/lamp.git -b "test"
-sudo chmod +x lamp/install.sh
+cd && git clone https://github.com/MariUt005/lamp.git
+chmod +x lamp/install.sh
 ~/lamp/install.sh
